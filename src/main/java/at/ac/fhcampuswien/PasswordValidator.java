@@ -40,6 +40,7 @@ public class PasswordValidator {
 
             if(a == b - 1 && c == b + 1)
                 return false;
+
         }
         return true;
     }

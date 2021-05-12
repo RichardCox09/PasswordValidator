@@ -73,7 +73,7 @@ public class PasswordValidatorTest {
 
     @Test
     public void testPasswordIsPerfect(){
-        boolean output = PasswordValidator.checkPassword("ahg44!@kGsd99H7JZF");
+        boolean output = PasswordValidator.checkPassword("ahg44@!kGsd99H7JZF");
         assertTrue(output);
     }
 
